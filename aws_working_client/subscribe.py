@@ -14,7 +14,7 @@ def on_message(client, userdata, msg):
 client.on_message = on_message
 
 # Connect to the broker
-client.connect("a2lqq15sxkfkml-ats.iot.eu-north-1.amazonaws.com", 8883, 60)
+client.connect("aws endpint", 8883, 60)
 
 # Start the loop
 client.loop_start()

@@ -15,7 +15,7 @@ def on_publish(client, userdata, mid):
 client.on_publish = on_publish
 
 # Connect to the broker
-client.connect("a2lqq15sxkfkml-ats.iot.eu-north-1.amazonaws.com", 8883, 60)
+client.connect("aws endpoint", 8883, 60)
 
 # Start the loop
 client.loop_start()
