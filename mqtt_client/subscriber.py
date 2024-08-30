@@ -1,4 +1,3 @@
-# subscriber.py
 from mqtt_client import MQTTClient
 
 # Define MQTT broker details
